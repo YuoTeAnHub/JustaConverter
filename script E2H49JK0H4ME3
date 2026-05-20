@@ -83,7 +83,7 @@ local function copyToClipboard(text)
 end
 
 getButton.MouseButton1Click:Connect(function()
-    local link = "https://discord.gg/SZGW678AJN"
+    local link = "https://discord.gg/thZ87CtPee"
     
     if copyToClipboard(link) then
         getButton.Text = "Copied to clipboard!"
